@@ -1,0 +1,20 @@
+/**
+ * 弹出框样式修正
+ */
+@media (min-width: 768px){
+  .base-modal .modal-dialog {
+    width: 665px;
+    margin: 150px auto;
+  }
+}
+
+/*成功提示框取消*/
+.base-modal .modal-header,
+.success-modal .modal-header{
+    background-color: #fff;
+}
+
+.base-modal .modal-body,
+.success-modal .modal-body{
+    text-align: center;
+}

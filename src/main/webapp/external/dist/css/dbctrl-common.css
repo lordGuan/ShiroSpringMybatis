@@ -1,0 +1,109 @@
+
+/*首页LOGO*/
+.main-logo {
+    background: url('../img/logo_03.png') no-repeat center;
+}
+/*首页LOGO-MINI*/
+.main-logo-mini {
+    background: url('../img/logo044_09.png') no-repeat center;
+}
+
+.logo-fix{
+    -webkit-transition: width 0.3s ease-in-out;
+    -o-transition: width 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out;
+    display: block;
+    float: left;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    width: 200px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0px;
+    font-weight: 300;
+    overflow: hidden;
+}
+
+/*主题色*/
+.main-theme .modal-header{
+    background: #245f6b;
+}
+
+/*包含输入框的一行*/
+.input-line{
+    width:100%;
+    display: inline-block;
+    margin:5px 0px 5px 0px;
+}
+/*输入框后的提示信息*/
+.input-line .tip{
+    text-align: left;
+    margin: 7px 0px 0px 3px;
+    padding:0px !important;
+}
+/*提示信息*/
+.tip{
+    color: red;
+    font-size: 12px;
+}
+
+/*提示框标红*/
+.input-line .has-error{
+    border-color: #dd4b39;
+    box-shadow: none
+}
+
+/*行左侧的图标背景*/
+.left-icon-bg{
+    color: #ffffff;
+    background: #245f6b;
+    width: 50px;
+}
+
+/*树形菜单左侧图标背景*/
+.treeview .left-icon-bg{
+    padding:12px 0px 12px 18px;
+}
+
+.active .left-icon-bg{
+    background: #41a0b3;
+}
+
+/*菜单文字与图标的间隔*/
+.treeview span{
+    margin-left:15px;
+}
+
+.content-fill{
+    height:100%;
+}
+
+.main-frame{
+    width: 100%;
+    margin-left: 0px !important;
+}
+
+.main-fixed{
+    overflow: hidden;
+}
+
+.box-footer .right-group{
+    text-align: right;
+}
+
+
+.content-header {
+    position: relative;
+    padding: 0;
+}
+
+.content-header > h1{
+    font-size : 14px;
+    font-weight: normal;
+    padding: 18px 0px 0px 25px;
+    height: 50px;
+    background: #ffffff;
+}
+
+

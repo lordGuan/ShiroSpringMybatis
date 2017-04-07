@@ -1,0 +1,170 @@
+@CHARSET "UTF-8";
+
+table {
+    font-size: 14px;
+    table-layout: fixed;
+    empty-cells: show;
+    border-collapse: separate;
+    margin: 0 auto;
+    width: 100% !important;
+}
+
+table.td {
+    height: 21px;
+}
+
+.title {
+    background: #FFF;
+    border: 1px solid #9DB3C5;
+    padding: 1px;
+    width: 90%;
+    margin: 20px auto;
+    position: relative;
+    top: expression(this.parentElement.parentElement.parentElement.scrollTop-1);
+    z-index: 2;
+}
+
+.title th {
+    background-image: url(../images/th_background.gif);
+    background-repeat: repeat;
+}
+
+table.t1 {
+    border: 1px solid #cad9ea;
+    border-top-width: 0px;
+    padding: 0px;
+    color: #666;
+}
+
+table.t1 th {
+    background-image: url(../images/th_background.gif);
+    height: 24px;
+}
+
+table.t1 td {
+    height: auto;
+}
+
+table.t1 td,table.t1 th {
+    border: 1px solid #cad9ea;
+    padding: 0px;
+    word-break: break-all;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+table.t1 tr.a1 {
+    background-color: #f5fafe;
+}
+
+table.t1 td.input,th.input {
+    width: 22px;
+    padding: 0px;
+    text-align: center
+}
+
+input.minSize {
+    width: 20px;
+    padding: 0px
+}
+
+div.scrollable {
+    border: 1px solid #cad9ea;
+    overflow: auto;
+}
+/* --------------------    详细页面表格样式    --------------------------- */
+
+.detail_firstCol {
+    width: 90px;
+}
+
+.detail_div {
+    margin-top: 10px;
+}
+
+.detail_div table {
+    width: 100%;
+}
+
+.detail_div td {
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 1px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.detail_div td img {
+    height: 14px;
+    width: 14px;
+}
+
+.detail_title {
+    height: 22px;
+    text-indent: 6px;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    font-size: 13px;
+    background-color: #6699CC;
+}
+
+.detail_title span {
+    color: #FFFFFF;
+}
+
+.detail_clearTable {
+    border: 1px #B6C1CB solid;
+}
+
+.detail_clearTable td {
+    border: 0px #B6C1CB solid;
+}
+
+.detail_rowTable {
+    border: 1px #B6C1CB solid;
+}
+
+.detail_rowTable td {
+    border: 0px #B6C1CB solid;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+}
+
+.detail_table {
+    border: 1px #B6C1CB solid;
+}
+
+.detail_table td {
+    border: 1px #B6C1CB solid;
+}
+
+.ui-jqgrid .ui-jqgrid-htable th {
+    height: 30px;
+    padding: 0px 10px;
+}
+
+.ui-widget-content{
+    background: none ;
+    border: 0px solid #f4f4f4;
+}
+
+/*关闭表格选中行高亮颜色，同时确保ie8*/
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight{
+    border: 0px solid #f4f4f4;
+    background: #fff;
+}
+
+.plain-table .ui-jqgrid tr.jqgrow td {
+    border-left: 1px solid #f4f4f4;
+    border-top: 0 none;
+    padding-bottom:5px;
+    color:#333333
+}
+
+.plain-table .ui-th-ltr, .ui-jqgrid .ui-jqgrid-htable th.ui-th-ltr {
+    border:1px solid #f4f4f4;
+}
+
+.key-word{
+    color: #42A0D6 !important;
+}
